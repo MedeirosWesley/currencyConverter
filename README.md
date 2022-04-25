@@ -1,7 +1,7 @@
 # currencyConverter
 Aplicativo conversor de moedas:
 * Real 
-* Dolar
+* Dólar
 * Euro
 
 # Imagens 🖼️
