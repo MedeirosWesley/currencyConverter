@@ -5,6 +5,7 @@ import 'dart:convert';
 const request = "https://api.hgbrasil.com/finance";
 void main() async {
   runApp(MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: const Home(),
       theme: ThemeData(
           hintColor: Colors.amber[200],
@@ -73,9 +74,10 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text(
           "Conversor",
-          style: TextStyle(color: Colors.amber[200]),
+          style: TextStyle(fontSize: 30, color: Colors.amber[200]),
         ),
         backgroundColor: Colors.grey[850],
+        elevation: 0,
         centerTitle: false,
       ),
       body: FutureBuilder<Map>(
